@@ -6,5 +6,4 @@ class SearchController < ApplicationController
       @books = Book.all
     end
   end
-
 end
