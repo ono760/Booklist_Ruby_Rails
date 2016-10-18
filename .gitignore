@@ -5,3 +5,10 @@ tmp
 vendor/
 .DS_Store
 lib/
+bin/
+config/environments
+config/initializers
+config/locales
+config/secrets.yml
+config/spring.rb
+db/development.sqlite3
