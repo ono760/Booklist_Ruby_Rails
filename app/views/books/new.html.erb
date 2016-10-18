@@ -1,0 +1,24 @@
+<h1>Add A New Book To My List</h1>
+<%= render 'form' %>
+<br>
+<p> OR </p>
+<h2>Look Up A Book</h2>
+<h5>If no title or author is entered, you will get a list of all books available! </h5>
+
+<%= form_tag("/search", :method => "get", id: "search-form") do %>
+<%= text_field_tag :search, params[:search], placeholder: "Book title or author" %>
+<br>
+<br>
+<%= submit_tag "Search Books!" %>
+<% end %>
+
+<br>
+<%= link_to 'Back to My Booklist', books_path %>
+<br>
+<br>
+<%= link_to 'Home', root_path %>
+<br>
+<br>
+
+
+

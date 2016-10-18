@@ -1,0 +1,7 @@
+log/
+public/
+test/
+tmp
+vendor/
+.DS_Store
+lib/

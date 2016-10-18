@@ -1,0 +1,31 @@
+<h1> Books in Database that you can add to your list! </h1>
+<table id="table">
+<thead>
+  <tr>
+    <th id="title">Title</th>
+    <th id="author">Author</th>
+    <th>Options</th>
+  </tr>
+</thead>
+<tbody>
+<% @books.each do|book| %>
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.author %></td>
+      <% book.user_id = current_user.id %>
+    <td><%= link_to "Add to my list", {:controller => "books", :action => "create", :book => book}%></td>    </tr>
+ <% end %>
+</tbody>
+</table>
+<br>
+<%= link_to 'Search Again', '/books/new'%>
+<br>
+<br>
+<%= link_to 'Back to My Booklist', books_path %>
+<br>
+<br>
+<%= link_to 'Home', root_path %>
+<br>
+<br>
+
+

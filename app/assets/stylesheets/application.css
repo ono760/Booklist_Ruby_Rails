@@ -1,0 +1,58 @@
+html {
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQclXojzgTDOvcJgbyKGMC2ps4RPeeu8z9OJ3TlmtsZXPM8Md0);
+    background-size: cover;
+}
+
+body {
+    font-size: 20px;
+    font-family: Garamond;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    color: orange;
+}
+
+table {
+    font-family: garamond;
+    border-collapse: separate;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #ff0;
+    text-align: center;
+    padding: 15px;
+}
+
+th {
+    color: #43605b;
+}
+
+th:hover {
+    cursor: pointer;
+    background: orange;
+}
+
+div {
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+input:hover {
+    background: orange;
+}
+
+#search {
+    background: white;
+    font-size: 14px;
+}
+
+#error {
+    color: red;
+}
