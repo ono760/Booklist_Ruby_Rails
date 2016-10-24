@@ -19,12 +19,12 @@ I started this project to learn Ruby on Rails. This project is in progress and I
 
 ##Screenshots
 ###### Home Page
-![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/assets/images/home.png)
+![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/app/assets/images/home.png)
 ###### Sort Booklist Alphabetically
-![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/assets/images/sort_by_title.png)
+![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/app/assets/images/sort_by_title.png)
 ###### Add Book To List
-![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/assets/images/add_search_book.png)
+![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/app/assets/images/add_search_book.png)
 ###### Search Results
-![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/assets/images/search_results.png)
+![alt tag](https://github.com/ono760/Booklist_Ruby_Rails/blob/master/app/assets/images/search_results.png)
 
 
