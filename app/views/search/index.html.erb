@@ -13,7 +13,13 @@
       <td><%= book.title %></td>
       <td><%= book.author %></td>
       <% book.user_id = current_user.id %>
+<!--       <%= f.hidden_field :user_id, :value => session[:user_id] %> -->
     <td><%= link_to "Add to my list", {:controller => "books", :action => "create", :book => book}%></td>    </tr>
+    
+<!--       <td><%= link_to '*Add to My list', books_path(:title => book.title, :author => book.author, :user_id => book.user_id), data: {confirm: 'You sure to add?'}%></td>
+
+
+            <td><%= link_to "Add to my list", {:controller => "books", :action => "create", :books => book}%></td> -->
  <% end %>
 </tbody>
 </table>

@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  #root 'home#index' tells Rails to map requests to the root of the application to the home controller's index action and 
+  #get 'home/index' tells Rails to map requests to http://localhost:3000/home/index to the home controller's index action.
+  
   get 'home/index'
   resources :books
   resources :users

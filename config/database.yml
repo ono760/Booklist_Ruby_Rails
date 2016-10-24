@@ -1,17 +1,19 @@
 development:
-  adapter: postgresql
+  adapter: mysql2
   database: booklist_development
   host: localhost
+  username: root
+  password: astro
   pool: 5
   timeout: 5000
 test:
-  adapter: postgresql
+  adapter: mysql2
   database: booklist_test
   pool: 5
   timeout: 5000
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   database: booklist_production
   pool: 5
   timeout: 5000

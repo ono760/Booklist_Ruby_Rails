@@ -4,6 +4,14 @@ class Book < ActiveRecord::Base
   validates :title, presence: true,
     length: { minimum: 3 }
   validates :author, presence: true
+
+  define_index do
+    indexes title, :sortable => true
+    indexes author(:name), :as => :author, :sortable =>true
+    has created_at, updated_at, user_id
+  end
+
+  after_save ThinkingSphinx::RealTime.callback_for(:book)
   
   def self.search(search)
     if search
